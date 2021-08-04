@@ -1,0 +1,21 @@
+{
+  "name": "hoichoi-downloader",
+  "version": "1.0.0",
+  "description": "Downloader",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Bilash",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-progress": "^3.8.2",
+    "got": "^11.8.0"
+  }
+}
