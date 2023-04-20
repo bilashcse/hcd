@@ -18,7 +18,7 @@ const getStatusInfo = async ({ id, token }) => {
   };
 
   const response = await axios.get(apiUrl, options);
-  return response.data.video.streamingInfo.videoAssets.mpeg[2].url;
+  return response.data.video.streamingInfo.videoAssets.widevine.url;
 };
 
 module.exports = { getStatusInfo };
